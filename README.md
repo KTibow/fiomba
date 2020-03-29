@@ -27,8 +27,8 @@ Are you sure you want to continue connecting (yes/no)?
 If it says something other than 192.168.something.something, then there's a problem. Type in "no" and press enter. Otherwise, it worked, so type in "yes" and press enter!  
 Next, you should type in `sudo raspi-config`. Use the arrow keys and enter to navigate. Get everything set up. Yay!  
 Now you need to download fiomba. Type this in and press enter:  
-`wget https://raw.githubusercontent.com/KTibow/fiomba/master/fiomba.py`
+`wget https://raw.githubusercontent.com/KTibow/fiomba/master/fiomba.py`  
 That should download fiomba. You need to edit it, though. Type this in and press enter:  
-`nano fiomba.py`
+`nano fiomba.py`  
 Navigate with the arrow keys, and change the Home Assistant creds. Press Ctrl+X and enter to save.  
 Okay! Now, type in `sudo shutdown now`. That'll shut down the pi. After 30 seconds or 5 seconds after the pi's led stops blinking, unplug it. Yay! On to hardware!  
